@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/079942c827.js" crossorigin="anonymous"></script>
+</head>
+</body>
+<div id="header">
+   <div class="container">
+      <nav>
+         <img src="NewLogo.png" class="logo">
+         <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+      <div class="header-text">
+         <p>Student of Masters</p>
+         <h1>Hi, I'm <span>Aditya Goswami</span> <br> from Kanpur</h1>
+      </div>
+   </div>
+</div>
+
+
+
+<div id="about">
+   <div class="container">
+      <div class="row">
+         <div class="col-1">
+            <img src="portfolioimage.jpg" >
+         </div>
+         <div class="col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>I am a dedicated computer science student with a strong passion for technology 
+               and innovation. My interests lie in programming, software development, and
+               exploring emerging fields like artificial intelligence and cybersecurity. I enjoy 
+               solving real-world problems through code, building projects that challenge me,
+               and collaborating with others to bring creative ideas to life. Constantly eager to 
+               learn, I stay updated with the latest trends in tech and strive to apply my 
+               knowledge to create meaningful solutions. Beyond academics, I value teamwork,
+               critical thinking, and a growth mindset that drives me to excel in both 
+               personal and professional endeavors.</p>
+
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                  <p class="tab-links"  onclick="opentab('Projects')">Projects</p>
+                  <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                  <ul>
+                     <li><span>Web Development</span><br> Frontend development</li>
+                     <li><span>Problem Solving</span><br> Data structures & algorithms</li>
+                     <li><span>Database Management</span><br> SQL</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="Projects">
+                  <ul>
+                     <li><span>My portfolio</span><br>All about me </li>
+                     <li><span>Youtube clone</span><br> A clone of Youtube using HTML, CSS, JavaScript technologies</li>
+                     <li><span>Incredible India</span><br>A web app showcasing India as top most tourist country</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                  <ul>
+                     <li><span>2023 - 2025</span><br> Masters of Computer Applications</li>
+                     <li><span>2018 - 2021</span><br> bachelor of Computer Applications</li>
+                     <li><span>2017 - 2018</span><br> Intermidiate</li>
+                     <li><span>2015 - 2016</span><br> Matriculation</li>
+                  </ul>
+                </div>
+         </div>
+      </div>
+   </div>
+</div> 
+
+
+
+<!-- -------------services---------- -->
+ <div id="services">
+   <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="services-list">
+         <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Developer</h2>
+            <p>Design and develop responsive, user-friendly websites using HTML,
+                CSS, JavaScript, and frameworks like React.</p>
+
+                 <a href="#">learn more</a>
+         </div>
+         <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Database Management</h2>
+            <p>Design, develop, and maintain relational databases 
+               using tools like MySQL, PostgreSQL, or MongoDB.</p>
+
+                 <a href="#">learn more</a>
+         </div><div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Algorithm Design and Optimization</h2>
+            <p>Provide efficient problem-solving solutions 
+               by implementing and optimizing algorithms.</p>
+
+                 <a href="#">Learn more</a>
+         </div>
+
+      </div>
+   </div>
+ </div>
+
+ <!-- -------------------portfolio------------ -->
+
+ <div id="portfolio">
+   <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+         <div class="work">
+            <img src="photo-1.jpg" >
+            <div class="layer">
+               <h3>Incredible India</h3>
+               <p>A website showcasing India as top most tourist country</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+       
+         <div class="work">
+            <img src="Photo-2.jpg" >
+            <div class="layer">
+               <h3>Music app</h3>
+               <p>A responsive clone of Spotify which includes HTML, CSS, JaavScript</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+        
+         <div class="work" id="photo_3">
+            <img src="Photo-3.jpg" >
+            <div class="layer">
+               <h3>Youtube clone</h3>
+               <p>A clone of Youtube using HTML, CSS, JavaScript technologies</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+         </div>
+    
+      </div>
+   <a href="#" class="btn">See More</a>
+   </div>
+ </div>
+
+<!-- contact -->
+
+<div id="contact">
+   <div class="container">
+      <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-tital">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> adityagoswami327@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i> 6392732444</p>
+            <div class="social-icon">
+               <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-facebook"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <!-- <a href=""><i class="fa-brands fa-instagram"></i></a> -->
+            </div>
+            <a href="Aditya03.pdf" download="" class="btn btn2">Download CV</a>
+         </div>
+         <div class="contact-right">
+            <form >
+               <input type="text" name="Name" placeholder="Your name " required>
+               <input type="email" name="Email" placeholder="Your email " required>
+               <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+               <button type="submit" class="btn btn2" >Submit</button>
+            </form>
+            
+         </div>
+      </div>
+   </div>
+   <div class="copyright">
+      <p>copyright @AdityaGoswami. <i class="fa-solid fa-heart"></i> Create this page</p>
+   </div>
+</div>
+
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+      for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+      }
+      document.getElementById(tabname).classList.add("active-tab");
+      
+   }
+</script>
+
+</body>
+</html>
